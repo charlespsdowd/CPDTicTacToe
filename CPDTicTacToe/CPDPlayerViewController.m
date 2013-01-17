@@ -1,18 +1,18 @@
 //
-//  CPDFirstViewController.m
+//  CPDPlayerViewController.m
 //  CPDTicTacToe
 //
 //  Created by Charles Dowd on 1/11/13.
 //  Copyright (c) 2013 Charles Dowd. All rights reserved.
 //
 
-#import "CPDFirstViewController.h"
+#import "CPDPlayerViewController.h"
 
-@interface CPDFirstViewController ()
+@interface CPDPlayerViewController ()
 
 @end
 
-@implementation CPDFirstViewController
+@implementation CPDPlayerViewController
 
 - (void)viewDidLoad
 {

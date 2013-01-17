@@ -18,10 +18,10 @@
 		61B9812B16A0C4E900A7AF7B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 61B9812A16A0C4E900A7AF7B /* Default-568h@2x.png */; };
 		61B9812E16A0C4E900A7AF7B /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61B9812C16A0C4E900A7AF7B /* MainStoryboard_iPhone.storyboard */; };
 		61B9813116A0C4E900A7AF7B /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61B9812F16A0C4E900A7AF7B /* MainStoryboard_iPad.storyboard */; };
-		61B9813416A0C4E900A7AF7B /* CPDFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 61B9813316A0C4E900A7AF7B /* CPDFirstViewController.m */; };
+		61B9813416A0C4E900A7AF7B /* CPDGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 61B9813316A0C4E900A7AF7B /* CPDGameViewController.m */; };
 		61B9813616A0C4E900A7AF7B /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 61B9813516A0C4E900A7AF7B /* first.png */; };
 		61B9813816A0C4E900A7AF7B /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 61B9813716A0C4E900A7AF7B /* first@2x.png */; };
-		61B9813B16A0C4E900A7AF7B /* CPDSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 61B9813A16A0C4E900A7AF7B /* CPDSecondViewController.m */; };
+		61B9813B16A0C4E900A7AF7B /* CPDPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 61B9813A16A0C4E900A7AF7B /* CPDPlayerViewController.m */; };
 		61B9813D16A0C4E900A7AF7B /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 61B9813C16A0C4E900A7AF7B /* second.png */; };
 		61B9813F16A0C4E900A7AF7B /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 61B9813E16A0C4E900A7AF7B /* second@2x.png */; };
 		61B9814716A0C4E900A7AF7B /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61B9814616A0C4E900A7AF7B /* SenTestingKit.framework */; };
@@ -57,12 +57,12 @@
 		61B9812A16A0C4E900A7AF7B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		61B9812D16A0C4E900A7AF7B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		61B9813016A0C4E900A7AF7B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
-		61B9813216A0C4E900A7AF7B /* CPDFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPDFirstViewController.h; sourceTree = "<group>"; };
-		61B9813316A0C4E900A7AF7B /* CPDFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CPDFirstViewController.m; sourceTree = "<group>"; };
+		61B9813216A0C4E900A7AF7B /* CPDGameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPDGameViewController.h; sourceTree = "<group>"; };
+		61B9813316A0C4E900A7AF7B /* CPDGameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CPDGameViewController.m; sourceTree = "<group>"; };
 		61B9813516A0C4E900A7AF7B /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
 		61B9813716A0C4E900A7AF7B /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
-		61B9813916A0C4E900A7AF7B /* CPDSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPDSecondViewController.h; sourceTree = "<group>"; };
-		61B9813A16A0C4E900A7AF7B /* CPDSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CPDSecondViewController.m; sourceTree = "<group>"; };
+		61B9813916A0C4E900A7AF7B /* CPDPlayerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPDPlayerViewController.h; sourceTree = "<group>"; };
+		61B9813A16A0C4E900A7AF7B /* CPDPlayerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CPDPlayerViewController.m; sourceTree = "<group>"; };
 		61B9813C16A0C4E900A7AF7B /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
 		61B9813E16A0C4E900A7AF7B /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
 		61B9814516A0C4E900A7AF7B /* CPDTicTacToeTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CPDTicTacToeTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -134,12 +134,12 @@
 				61B9812416A0C4E900A7AF7B /* CPDAppDelegate.m */,
 				61B9812C16A0C4E900A7AF7B /* MainStoryboard_iPhone.storyboard */,
 				61B9812F16A0C4E900A7AF7B /* MainStoryboard_iPad.storyboard */,
-				61B9813216A0C4E900A7AF7B /* CPDFirstViewController.h */,
-				61B9813316A0C4E900A7AF7B /* CPDFirstViewController.m */,
+				61B9813216A0C4E900A7AF7B /* CPDGameViewController.h */,
+				61B9813316A0C4E900A7AF7B /* CPDGameViewController.m */,
 				61B9813516A0C4E900A7AF7B /* first.png */,
 				61B9813716A0C4E900A7AF7B /* first@2x.png */,
-				61B9813916A0C4E900A7AF7B /* CPDSecondViewController.h */,
-				61B9813A16A0C4E900A7AF7B /* CPDSecondViewController.m */,
+				61B9813916A0C4E900A7AF7B /* CPDPlayerViewController.h */,
+				61B9813A16A0C4E900A7AF7B /* CPDPlayerViewController.m */,
 				61B9813C16A0C4E900A7AF7B /* second.png */,
 				61B9813E16A0C4E900A7AF7B /* second@2x.png */,
 				61B9811B16A0C4E900A7AF7B /* Supporting Files */,
@@ -298,8 +298,8 @@
 			files = (
 				61B9812116A0C4E900A7AF7B /* main.m in Sources */,
 				61B9812516A0C4E900A7AF7B /* CPDAppDelegate.m in Sources */,
-				61B9813416A0C4E900A7AF7B /* CPDFirstViewController.m in Sources */,
-				61B9813B16A0C4E900A7AF7B /* CPDSecondViewController.m in Sources */,
+				61B9813416A0C4E900A7AF7B /* CPDGameViewController.m in Sources */,
+				61B9813B16A0C4E900A7AF7B /* CPDPlayerViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

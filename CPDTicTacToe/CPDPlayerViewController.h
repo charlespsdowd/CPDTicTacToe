@@ -1,5 +1,5 @@
 //
-//  CPDSecondViewController.h
+//  CPDPlayerViewController.h
 //  CPDTicTacToe
 //
 //  Created by Charles Dowd on 1/11/13.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface CPDSecondViewController : UIViewController
+@interface CPDPlayerViewController : UIViewController
 
 @end
